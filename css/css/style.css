@@ -1,0 +1,139 @@
+@charset "UTF-8";
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  color: white;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.pd, dl {
+  margin: 5px 20px 0 20px;
+  line-height: 1.2;
+}
+
+.headimage {
+  position: relative;
+  width: 320px;
+  height: 220px;
+}
+
+@media screen and (max-width: 480px) {
+  .headimage {
+    position: relative;
+    width: 320px;
+    height: 220px;
+  }
+}
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #d6002f;
+  width: 320px;
+  height: 80px;
+}
+#nav li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 80px;
+  height: 80px;
+}
+#nav li:hover {
+  background: #bc0029;
+}
+#nav a {
+  display: block;
+  margin: 0;
+  padding: 10px 0;
+  width: 100%;
+  height: 100%;
+  font-size: small;
+  text-decoration: none;
+  color: white;
+}
+#nav .aot {
+  display: block;
+  margin: 0;
+  padding: 15px 0;
+  width: 100%;
+  height: 100%;
+  font-size: small;
+  text-decoration: none;
+  color: white;
+}
+#nav p .pcla {
+  text-align: center;
+}
+
+#kodawari, #menu, #tenpo, #ivent {
+  padding: 20px 0 20px 0;
+}
+
+#ivent {
+  margin-bottom: 40px;
+}
+
+#date {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+#foot {
+  padding-top: 10px;
+  background-color: #d6002f;
+}
+#foot ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#foot li {
+  margin: 0;
+  padding: 0;
+}
+#foot a {
+  display: block;
+  margin-top: 10px;
+  margin-left: 25px;
+  text-decoration: underline;
+  color: white;
+}
+
+.fmenu {
+  margin-top: 25px;
+  float: left;
+}
+
+.flogo {
+  margin: 0;
+  float: right;
+}
+
+.oku {
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+  font-size: small;
+}
